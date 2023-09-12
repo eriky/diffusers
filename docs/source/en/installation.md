@@ -23,7 +23,7 @@ Install 🤗 Diffusers for whichever deep learning library you're working with.
 
 You should install 🤗 Diffusers in a [virtual environment](https://docs.python.org/3/library/venv.html).
 If you're unfamiliar with Python virtual environments, take a look at this [guide](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/).
-A virtual environment makes it easier to manage different projects and avoid compatibility issues between dependencies.
+A virtual environment makes managing different projects easier and avoids compatibility issues between dependencies.
 
 Start by creating a virtual environment in your project directory:
 
@@ -42,12 +42,12 @@ source .env/bin/activate
 <frameworkcontent>
 <pt>
 ```bash
-pip install diffusers["torch"] transformers
+pip install 'diffusers[torch]' transformers
 ```
 </pt>
 <jax>
 ```bash
-pip install diffusers["flax"] transformers
+pip install 'diffusers[flax]' transformers
 ```
 </jax>
 </frameworkcontent>
